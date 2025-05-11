@@ -9,8 +9,8 @@
   "author": {
     "name": "bolt.diy team",
     "email": "maintainers@bolt.diy"
-  },
-  "scripts": {
+  ,"netlify-plugin-remix": "^1.0.0"}`
+  "scripts": {`n    "build": "remix build",
     "deploy": "npm run build && wrangler pages deploy",
     "build": "remix vite:build",
     "dev": "node pre-start.cjs  && remix vite:dev",
@@ -39,10 +39,10 @@
     "electron:build:win": "rm -rf dist && pnpm electron:build:renderer && pnpm electron:build:deps && electron-builder --win",
     "electron:build:linux": "rm -rf dist && pnpm electron:build:renderer && pnpm electron:build:deps && electron-builder --linux",
     "electron:build:dist": "rm -rf dist && pnpm electron:build:renderer && pnpm electron:build:deps && electron-builder --mwl"
-  },
+  ,"netlify-plugin-remix": "^1.0.0"}`
   "engines": {
     "node": ">=18.18.0"
-  },
+  ,"netlify-plugin-remix": "^1.0.0"}`
   "dependencies": {
     "@ai-sdk/amazon-bedrock": "1.0.6",
     "@ai-sdk/anthropic": "0.0.39",
@@ -153,7 +153,7 @@
     "vite-plugin-node-polyfills": "^0.22.0",
     "zod": "^3.24.1",
     "zustand": "^5.0.3"
-  },
+  ,"netlify-plugin-remix": "^1.0.0"}`
   "devDependencies": {
     "@blitz/eslint-plugin": "0.1.0",
     "@cloudflare/workers-types": "^4.20241127.0",
@@ -200,9 +200,9 @@
     "vite-tsconfig-paths": "^4.3.2",
     "vitest": "^2.1.7",
     "wrangler": "^4.5.1"
-  },
+  ,"netlify-plugin-remix": "^1.0.0"}`
   "resolutions": {
     "@typescript-eslint/utils": "^8.0.0-alpha.30"
-  },
+  ,"netlify-plugin-remix": "^1.0.0"}`
   "packageManager": "pnpm@9.4.0"
 }
